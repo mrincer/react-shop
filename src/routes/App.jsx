@@ -2,7 +2,6 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 // import containers
 import Layout from "../containers/Layout.jsx";
-import RecoveryPassword from "../containers/RecoveryPassword.jsx";
 // import pages
 import Home from "../pages/Home.jsx";
 import NotFound from "../pages/NotFound.jsx";

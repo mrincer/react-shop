@@ -13,7 +13,7 @@ module.exports = {
         publicPath:'/'
     },
     resolve:{
-        extensions:['.js', '.jxs']
+        extensions:['.js', '.jxs', '.css']
     },
     module:{
         rules:[

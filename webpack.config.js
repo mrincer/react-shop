@@ -13,7 +13,8 @@ module.exports = {
         publicPath:'/'
     },
     resolve:{
-        extensions:['.js', '.jxs', '.css']
+        extensions:['.js', '.jxs', '.css'],
+       
     },
     module:{
         rules:[
@@ -39,6 +40,9 @@ module.exports = {
                     "css-loader",
                     "sass-loader",
                 ]
+            },
+            {test: /\.(png|jpg|gif)$/,
+            type: 'asset'
             }
         ]
     },
